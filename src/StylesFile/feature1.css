@@ -28,11 +28,11 @@
   width: 90%;
 }
 
-.feture__item ul{
+.feature__item ul{
   padding: 0px 0px 20px;
 }
 
-.feture__item li{
+.feature__item li{
   font-family: 'Lato', sans-serif;
   display: inline-block;
   list-style: none;

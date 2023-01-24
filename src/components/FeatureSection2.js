@@ -1,10 +1,11 @@
-import { Row,Col } from 'react-bootstrap'
+import { Container,Row,Col } from 'react-bootstrap'
 import '../StylesFile/featureSection2.css'
 
 export default function FeatureSection2(){
 
   return (
     <div className='feature__section2'>
+
       <div className='feature_wraper'>
         <Row>
           <Col md={12}>
@@ -30,6 +31,8 @@ export default function FeatureSection2(){
           </Col>
         </Row>
       </div>
+
+     
     </div>
   )
 }

@@ -1,4 +1,20 @@
 .feature__section3{
-  height: 480px !important;
+  height: 480px;
   width: 100%;
+  
+}
+
+.feature3__text{
+  padding: 100px 0px;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+}
+
+.item1 p{
+  font-family: 'Lato', sans-serif;
+}
+
+.span__text{
+  font-family: 'Lato', sans-serif;
 }

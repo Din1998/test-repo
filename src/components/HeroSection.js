@@ -15,7 +15,7 @@ export default function HeroSection () {
             <p>AV experstise in providing IT Solutions for any business challanges</p>
           </div>
           <div className='play__btn'>
-            <div className='circle'><FontAwesomeIcon icon={faPlay} className="play__icon" /></div>
+            <button className='circle_btn'><FontAwesomeIcon icon={faPlay} className="play__icon" /></button>
           </div>
         </div>
     </div>

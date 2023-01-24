@@ -18,7 +18,7 @@ export default function IndustrysSection(){
            
       <div className='section__wraper'>
 
-      <Col md={4}>
+
         <div className='nav'>
           <ul>
             <li><FontAwesomeIcon icon={faAutomobile} className="nav__icon" />Automotive</li>
@@ -32,9 +32,10 @@ export default function IndustrysSection(){
             <li><FontAwesomeIcon icon={faSpaceShuttle} className="nav__icon" />Tourism</li>
           </ul>
         </div>
-      </Col>
+
+
       <div className='text__frame'>
-          <Col md={8}>
+         
             <Row>
               <Col md={12}>
                 <div className='title__text sub_text'>
@@ -64,12 +65,10 @@ export default function IndustrysSection(){
                 </div>
               </Col>
             </Row>
-            
-          </Col>
+         
       </div>
 
-    </div>
-           
+    </div>   
     </div>
 
   )

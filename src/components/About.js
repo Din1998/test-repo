@@ -1,11 +1,12 @@
 import '../StylesFile/about.css';
-import { Row,Col } from 'react-bootstrap';
+import {Container, Row,Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCloud,faChartLine,faPlay,faChartPie,faUserGroup,faShareNodes,faRobot,faMobile,faWindowRestore } from '@fortawesome/free-solid-svg-icons'
 
 export default function About() {
   return(
     <div className='about__section'>
+      <Container fluid>
       <div className='wraper'>
         <Row>
             <Col md={3} sm={6}><div className='box box-a'>
@@ -84,6 +85,7 @@ export default function About() {
               </div></Col>
         </Row>
       </div>
+      </Container>
     </div>
   )
 }

@@ -12,7 +12,7 @@ export default function FeatuteSection(){
             <h1>WHAT WE OFFER</h1>
             <p>From Consulting and Solutioning to Implementation and Support Services, we provide services for the whole project lifecycle, assisting you in maximizing your technology investment and unlocking the strategic potential of Big Data. We work with our clients to identify and create sustainable growth strategies through their big data.</p>
           </div>
-          <div className="feture__item">
+          <div className="feature__item">
             <ul>
               <li><FontAwesomeIcon icon={faUserGroup} className="feture__icon" />Consulting</li>
               <li><FontAwesomeIcon icon={faGears} className="feture__icon" />Services</li>

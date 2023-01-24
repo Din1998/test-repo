@@ -27,7 +27,7 @@
 
 .nav{
   background: white;
-  width: 100%;
+  width: 300px;
   height: 600px;
   box-shadow: 12px 0px 12px rgba(0, 0, 0, 0.24);
 }
@@ -69,4 +69,11 @@
 .sub_text{
   padding: 8px;
   width: 100%;
+}
+
+@media (width: 717px) {
+  .section__wraper {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -25,20 +25,23 @@
 }
 
 .play__btn{
-  color: #FFFFFF;
+  
   text-align: center;
 }
 
-.circle{
-  color: #FFFFFF;
+.circle_btn{
+  text-align: center;
   height: 80px;
   width: 80px;
-  border: 1px solid white;
-  background-color: #0F4699;
+  border: 1px;
+  background: transparent;
+  border: 1px solid #0F4699;;
   border-radius: 50%;
 }
 
 .play__icon{
+  transform: rotate(-90deg);
+  color: #FFFFFF;
   width: 40px;
   height: 40px;
 }
