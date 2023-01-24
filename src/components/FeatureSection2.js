@@ -14,7 +14,7 @@ export default function FeatureSection2(){
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
               </div>
               
-              <div className='sec_btn'><p>Contact Us</p></div>
+              <button className='sec_btn'>Contact Us</button>
             </div>
           </Col>
           

@@ -23,9 +23,10 @@
 }
 
 .sec_btn{
+  border: none;
   color: black;
   background: white;
-  width: 100px;
+  width: 120px;
   height: 40px;
   border-radius: 20px;
 }
