@@ -1,0 +1,48 @@
+.feature__section1{
+  height: 560;
+  width: 100%;
+  
+}
+
+.feature__sec_wraper{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.feature__text h1{
+  font-weight: 900;
+}
+
+.feature__text p{
+  padding: 12px 0px ;
+}
+
+.feature__text{
+  padding: 100px 0px ;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  width: 90%;
+}
+
+.feture__item ul{
+  padding: 0px 0px 20px;
+}
+
+.feture__item li{
+  font-family: 'Lato', sans-serif;
+  display: inline-block;
+  list-style: none;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 0px 0px 50px 0px;
+}
+
+.feture__icon{
+  width: 50px;
+  height: 45px;
+  padding: 0px 20px;
+}
