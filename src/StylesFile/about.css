@@ -1,0 +1,24 @@
+.about__section{
+  font-family: 'Lato', sans-serif;
+  height: 846px;
+}
+
+.box{
+  height: 400px;
+  width: 358px;
+  border: 1px solid black;
+
+}
+
+.box-a{
+  background-image: url('../Assist/Rectangle\ 20.png');
+}
+.box-b{
+  background-image: url('../Assist/Rectangle\ 19.png');
+}
+.box-c{
+  background-image: url('../Assist/Rectangle\ 20.png');
+}
+.box-d{
+  background-image: url('../Assist/Rectangle\ 19.png');
+}

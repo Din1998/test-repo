@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About';
 import FeatuteSection from './components/FeatureSection1';
 import FeatureSection2 from './components/FeatureSection2';
 import HeroSection from './components/HeroSection';
@@ -10,9 +11,10 @@ function App() {
     <div className="App">
       <NavBar />
       <HeroSection />
-      <FeatuteSection /> {/* add feature section component */}
+      <FeatuteSection /> {/* add feature section component 1*/}
       <IndustrysSection />
-      <FeatureSection2 />
+      <FeatureSection2 /> {/* add feature section component 2 */}
+      <About />
     </div>
   );
 }
