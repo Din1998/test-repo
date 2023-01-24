@@ -1,30 +1,4 @@
-.feature__section1{
-  height: 560;
+.feature__section3{
+  height: 480px !important;
   width: 100%;
-  
-}
-
-.feature__sec_wraper{
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.feature__text h1{
-  font-weight: 300;
-}
-
-.feature__text{
-  padding: 100px 0px ;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-  width: 60%;
-}
-
-.item{
-  width: 200px;
-  
 }

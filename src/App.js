@@ -16,7 +16,7 @@ function App() {
       <IndustrysSection />
       <FeatureSection2 /> {/* add feature section component 2 */}
       <About />
-      <FeatuteSection3 />
+      <FeatuteSection3 />{/* add feature section component 2 */}
     </div>
   );
 }
