@@ -32,6 +32,22 @@
 }
 
 
+.links{
+
+  display: flex;
+  justify-content: right;
+}
+
+.link{
+  color: white;
+  
+}
+
+.link:hover{
+  color: white;
+  
+}
+
 .title__icon{
   width: 36px;
   height: 24px;
