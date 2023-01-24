@@ -19,7 +19,7 @@ export default function IndustrysSection(){
       <div className='section__wraper'>
 
 
-        <div className='nav'>
+        <div className='left__nav'>
           <ul>
             <li><FontAwesomeIcon icon={faAutomobile} className="nav__icon" />Automotive</li>
             <li><FontAwesomeIcon icon={faUser} className="nav__icon" />Diagonistic</li>
@@ -45,13 +45,13 @@ export default function IndustrysSection(){
               </Col>
             </Row>
             <Row>
-              <Col md={6}>
+              <Col md={5}>
                 <div className='title__text'>
                 <h1>Online</h1>
                 <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. </p>
                 </div>
               </Col>
-              <Col md={6}>
+              <Col md={7}>
                 <div>
                   <img alt='img' src={img} className='img'/>
                 </div>

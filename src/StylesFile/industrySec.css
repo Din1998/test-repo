@@ -25,18 +25,18 @@
 
 /* NAV */
 
-.nav{
+.left__nav{
   background: white;
   width: 300px;
   height: 600px;
   box-shadow: 12px 0px 12px rgba(0, 0, 0, 0.24);
 }
 
-.nav ul{
+.left__nav ul{
   padding: 80px;
 }
 
-.nav li{
+.left__nav li{
   padding: 0px 0px 20px;
   display: flex;
   flex-direction: row;
@@ -71,9 +71,16 @@
   width: 100%;
 }
 
-@media (width: 717px) {
+/* @media (width: 717px) {
   .section__wraper {
     display: flex;
     flex-direction: column;
+  }
+} */
+
+@media (max-width: 727px) {
+  .left__nav{
+    display: none;
+   
   }
 }

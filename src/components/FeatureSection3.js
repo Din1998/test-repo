@@ -5,12 +5,11 @@ import {Container,Row,Col} from 'react-bootstrap';
 export default function FeatureSection3(){
   return(
       <div className="feature__section3">
-        <Container fluid>
+        <Container >
           <div className="feature__wraper3">
             <div className="feature3__text">
               <h1>SEE EVERYTHING ABOUT YOUR ANALYTICS VALLEY BUSINESS</h1>
             </div>
-
             <div className="feture__item3">
             <Row className="justify-content-sm-center">
               <Col md={3} sm={6}><div className='item1'>
