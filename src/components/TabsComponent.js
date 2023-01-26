@@ -5,7 +5,7 @@ import Tab from 'react-bootstrap/Tab';
 import '../StylesFile/tabsComponent.css'
 import img from '../Assist/Rectangle 26.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAutomobile,faUser,faBook,faMicrophoneAlt,faUniversity,faGifts,faHeart,faTasks,faSpaceShuttle } from '@fortawesome/free-solid-svg-icons'
+import { faAutomobile,faUser,faBook,faMicrophoneAlt,faUniversity,faGifts,faHeart,faTasks,faMountain} from '@fortawesome/free-solid-svg-icons'
 
 
 function LeftTabs() {
@@ -15,32 +15,32 @@ function LeftTabs() {
       <Row className='bg-white'>
         <Col sm={3}>
           <Nav variant="pills" className="flex-column xyz__leftTabNav_comp">
-            <Nav.Item>
-              <Nav.Link eventKey="Automotive">Automotive</Nav.Link>
+            <Nav.Item >
+              <Nav.Link eventKey="Automotive" className='xyz__navLink'><FontAwesomeIcon icon={faAutomobile} className="xyz__navIcon" />Automotive</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="Diagonistic">Diagonistic</Nav.Link>
+              <Nav.Link eventKey="Diagonistic" className='xyz__navLink'><FontAwesomeIcon icon={faUser} className="xyz__navIcon" />Diagonistic</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="E-Learning">E - Learning</Nav.Link>
+              <Nav.Link eventKey="E-Learning" className='xyz__navLink'><FontAwesomeIcon icon={faBook} className="xyz__navIcon" />E - Learning</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="Entertainment">Entertainment</Nav.Link>
+              <Nav.Link eventKey="Entertainment" className='xyz__navLink'><FontAwesomeIcon icon={faMicrophoneAlt} className="xyz__navIcon" />Entertainment</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="Education">Education</Nav.Link>
+              <Nav.Link eventKey="Education" className='xyz__navLink'><FontAwesomeIcon icon={faUniversity} className="xyz__navIcon" />Education</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="Fashion & Lifestyle">Fashion & Lifestyle</Nav.Link>
+              <Nav.Link eventKey="Fashion & Lifestyle" className='xyz__navLink'><FontAwesomeIcon icon={faGifts} className="xyz__navIcon"/>Fashion & Lifestyle</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="Healthcare">Healthcare</Nav.Link>
+              <Nav.Link eventKey="Healthcare" className='xyz__navLink'><FontAwesomeIcon icon={faHeart} className="xyz__navIcon"/>Healthcare</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="Retail">Retail</Nav.Link>
+              <Nav.Link eventKey="Retail" className='xyz__navLink'><FontAwesomeIcon icon={faTasks} className="xyz__navIcon"/>Retail</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="Tourism">Tourism</Nav.Link>
+              <Nav.Link eventKey="Tourism" className='xyz__navLink'><FontAwesomeIcon icon={faMountain} className="xyz__navIcon"/>Tourism</Nav.Link>
             </Nav.Item>
           </Nav>
         </Col>

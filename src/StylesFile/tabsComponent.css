@@ -5,6 +5,7 @@
 }
 
 .xyz__leftTabNav_comp{
+  color: black !important;
   padding: 80px 0px;
   height: 100%;
   box-shadow: 12px 0px 12px rgba(0, 0, 0, 0.24);
@@ -28,6 +29,13 @@
   align-items: center;
 }
 .tabs__img{
-  
   width: 100%;
+}
+
+.xyz__navIcon{
+  padding: 0px 20px;
+}
+
+.xyz__navLink{
+  color: black !important;
 }
