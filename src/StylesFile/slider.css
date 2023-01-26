@@ -1,0 +1,71 @@
+.slider__foHeroUI{
+  width: 100%;
+  height: 600px;
+  
+}
+
+.slider__bg1{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../Assist//look1.png");
+}
+
+.slider__bg2{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../Assist//look4.png");
+}
+
+.slider__bg3{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../Assist//look3.png");
+}
+
+
+.hero__content_wraper{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero__text__box{
+  padding: 60px 0px;
+  width: 80%;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+}
+
+.play__btn{
+  background: #0F4699;
+  text-align: center;
+  opacity: .3;
+  border-radius: 50%;
+}
+
+.circle_btn{
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  border: 1px;
+  background: transparent;
+  border: 1px solid #0F4699;;
+  border-radius: 50%;
+
+}
+
+.play__icon{
+  transform: rotate(-90deg);
+  color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+}
+
