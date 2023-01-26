@@ -52,10 +52,17 @@ function LeftTabs() {
                 </Col>
                 <Row>
                   <Col md={6}>
+                      <h2>Automobile</h2>
                       <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                   <Col md={6}>
-                    <img className='tabs__img' src={img}/>
+                    <div className='tab__img_box'>
+                      <img className='tabs__img' src={img}/>
+                    </div>
+                    
+                  </Col>
+                  <Col>
+                  <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                 </Row>
               </Row>
@@ -69,10 +76,16 @@ function LeftTabs() {
                 </Col>
                 <Row>
                   <Col md={6}>
+                      <h2>Diagonistic</h2>
                       <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                   <Col md={6}>
-                    <img className='tabs__img' src={img}/>
+                  <div className='tab__img_box'>
+                      <img className='tabs__img' src={img}/>
+                    </div>
+                  </Col>
+                  <Col>
+                  <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                 </Row>
               </Row>
@@ -85,10 +98,16 @@ function LeftTabs() {
                 </Col>
                 <Row>
                   <Col md={6}>
+                    <h2>E-Learning</h2>
                       <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                   <Col md={6}>
-                    <img className='tabs__img' src={img}/>
+                  <div className='tab__img_box'>
+                      <img className='tabs__img' src={img}/>
+                    </div>
+                  </Col>
+                  <Col>
+                  <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                 </Row>
               </Row>
@@ -101,10 +120,16 @@ function LeftTabs() {
                 </Col>
                 <Row>
                   <Col md={6}>
+                    <h2>Entertainment</h2>
                       <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                   <Col md={6}>
-                    <img className='tabs__img' src={img}/>
+                  <div className='tab__img_box'>
+                      <img className='tabs__img' src={img}/>
+                    </div>
+                  </Col>
+                  <Col>
+                  <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                 </Row>
               </Row>
@@ -117,10 +142,16 @@ function LeftTabs() {
                 </Col>
                 <Row>
                   <Col md={6}>
+                    <h2>Education</h2>
                       <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                   <Col md={6}>
-                    <img className='tabs__img' src={img}/>
+                  <div className='tab__img_box'>
+                      <img className='tabs__img' src={img}/>
+                    </div>
+                  </Col>
+                  <Col>
+                  <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                 </Row>
               </Row>
@@ -133,10 +164,16 @@ function LeftTabs() {
                 </Col>
                 <Row>
                   <Col md={6}>
+                    <h2>Fashion & Lifestyle</h2>
                       <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                   <Col md={6}>
-                    <img className='tabs__img' src={img}/>
+                  <div className='tab__img_box'>
+                      <img className='tabs__img' src={img}/>
+                    </div>
+                  </Col>
+                  <Col>
+                  <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                 </Row>
               </Row>
@@ -149,10 +186,16 @@ function LeftTabs() {
                 </Col>
                 <Row>
                   <Col md={6}>
+                    <h2>Healthcare</h2>
                       <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                   <Col md={6}>
-                    <img className='tabs__img' src={img}/>
+                  <div className='tab__img_box'>
+                      <img className='tabs__img' src={img}/>
+                    </div>
+                  </Col>
+                  <Col>
+                  <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                 </Row>
               </Row>
@@ -165,10 +208,16 @@ function LeftTabs() {
                 </Col>
                 <Row>
                   <Col md={6}>
+                    <h2>Retail</h2>
                       <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                   <Col md={6}>
-                    <img className='tabs__img' src={img}/>
+                  <div className='tab__img_box'>
+                      <img className='tabs__img' src={img}/>
+                    </div>
+                  </Col>
+                  <Col>
+                  <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                 </Row>
               </Row>
@@ -181,10 +230,16 @@ function LeftTabs() {
                 </Col>
                 <Row>
                   <Col md={6}>
+                    <h2>Tourism</h2>
                       <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                   <Col md={6}>
-                    <img className='tabs__img' src={img}/>
+                    <div className='tab__img_box'>
+                      <img className='tabs__img' src={img}/>
+                    </div>
+                  </Col>
+                  <Col>
+                  <p>Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed. Lorem ipsum dolor sit amet consectetur. Nulla pellentesque venenatis amet interdum pulvinar non. Viverra risus aliquet sollicitudin nibh aliquam augue. Felis odio in pharetra quis ultricies sed.</p>
                   </Col>
                 </Row>
               </Row>

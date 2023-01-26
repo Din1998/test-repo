@@ -20,6 +20,14 @@
   padding: 12px 0px;
 }
 
+.tab__img_box{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .tabs__img{
+  
   width: 100%;
 }
