@@ -1,0 +1,25 @@
+.left__tab_comp{
+  width: 90%;
+  padding: 0px 0px 100px 0px;
+
+}
+
+.xyz__leftTabNav_comp{
+  padding: 80px 0px;
+  height: 100%;
+  box-shadow: 12px 0px 12px rgba(0, 0, 0, 0.24);
+}
+
+.xyz__right_tableText{
+  box-shadow: 12px 0px 12px rgba(0, 0, 0, 0.24);
+  background: #0F4699;
+  color: white;
+}
+
+.xyz_tab__title{
+  padding: 12px 0px;
+}
+
+.tabs__img{
+  width: 100%;
+}

@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAutomobile,faUser,faBook,faMicrophoneAlt,faUniversity,faGifts,faHeart,faTasks,faSpaceShuttle } from '@fortawesome/free-solid-svg-icons'
 
 import img from '../Assist/Rectangle 26.png'
+import LeftTabs from './TabsComponent'
 
 export default function IndustrysSection(){
 
@@ -16,7 +17,7 @@ export default function IndustrysSection(){
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
       </div>
            
-      <div className='section__wraper'>
+      {/* <div className='section__wraper'>
 
 
         <div className='left__nav'>
@@ -66,9 +67,11 @@ export default function IndustrysSection(){
               </Col>
             </Row>
          
-      </div>
+      </div> */}
 
-    </div>   
+    {/* </div>    */}
+
+    <LeftTabs />
     </div>
 
   )
