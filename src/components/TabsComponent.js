@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
 import '../StylesFile/tabsComponent.css'
 import img from '../Assist/Rectangle 26.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAutomobile,faUser,faBook,faMicrophoneAlt,faUniversity,faGifts,faHeart,faTasks,faSpaceShuttle } from '@fortawesome/free-solid-svg-icons'
 
 
 function LeftTabs() {

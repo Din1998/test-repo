@@ -27,8 +27,10 @@
 }
 
 .play__btn{
-  
+  background: #0F4699;
   text-align: center;
+  opacity: .6;
+  border-radius: 50%;
 }
 
 .circle_btn{
@@ -39,6 +41,7 @@
   background: transparent;
   border: 1px solid #0F4699;;
   border-radius: 50%;
+
 }
 
 .play__icon{

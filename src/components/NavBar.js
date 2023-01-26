@@ -1,7 +1,7 @@
 import '../StylesFile/navBar.css'
 import { useRef } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHamburger,faClose} from '@fortawesome/free-solid-svg-icons'
+import { faHamburger,faClose,faCaretDown,faBarsStaggered} from '@fortawesome/free-solid-svg-icons'
 import logo from'../Assist/AVLogo1.jpg'
 
 export default function NavBar () {
@@ -19,21 +19,21 @@ export default function NavBar () {
       <nav ref={navRef}>
         <a href='#'>HOME</a>
         <a href='#'>ABOUT US</a>
-        <a href='#'>SOLUTION</a>
-        <a href='#'>SERVICE</a>
+        <a href='#'>SOLUTION <FontAwesomeIcon icon={faCaretDown} /></a>
+        <a href='#'>SERVICE <FontAwesomeIcon icon={faCaretDown} /></a>
         <a href='#'>CARRER</a>
         <a href='#'>CONTACT US</a>
         <button 
           className="nav-btn nav-close-btn"
 					onClick={showNavbar}
         >
-        <FontAwesomeIcon icon={faClose} className="feture__icon" />
+        <FontAwesomeIcon icon={faClose}  />
         </button>
       </nav>
       <button
         className="nav-btn" onClick={showNavbar}
       >
-      <FontAwesomeIcon icon={faHamburger} className="feture__icon" />
+      <FontAwesomeIcon icon={faBarsStaggered}  />
       </button>
     </header>
   )
