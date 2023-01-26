@@ -1,5 +1,6 @@
 import '../StylesFile/herosection.css'
-import { Container } from 'react-bootstrap'
+import Container from '@mui/material/Container';
+import {Grid} from '@mui/material'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
 
@@ -7,7 +8,7 @@ import { faPlay } from '@fortawesome/free-solid-svg-icons'
 
 export default function HeroSection () {
   return(
-    <Container fluid>
+    <Container maxWidth={false}>
       <div className='heroSection'>
         <div className='hero__content_wraper'>
           <div className='hero__text__box'>
