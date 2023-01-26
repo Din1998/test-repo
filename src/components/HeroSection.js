@@ -3,13 +3,14 @@ import Container from '@mui/material/Container';
 import {Grid} from '@mui/material'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import Slider from './Slider';
 
 
 
 export default function HeroSection () {
   return(
     <Container maxWidth={false}>
-      <div className='heroSection'>
+      {/* <div className='heroSection'>
         <div className='hero__content_wraper'>
           <div className='hero__text__box'>
             <h1>GROW YOUR BUSINESS WITH INNOVATION SOLUTION</h1>
@@ -19,7 +20,8 @@ export default function HeroSection () {
             <button className='circle_btn'><FontAwesomeIcon icon={faPlay} className="play__icon" /></button>
           </div>
         </div>
-    </div>
+    </div> */}
+    <Slider />
     </Container>
   )
 }
