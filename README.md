@@ -4,4 +4,4 @@
 [Test repo](https://test-repo-45g8.vercel.app/)
 
 
-![alt text](https://test-repo-45g8.vercel.app/Assist/projectimg.png)
+![alt text](Assist/projectimg.png)
