@@ -7,12 +7,13 @@ import HeroSection from './components/HeroSection';
 import IndustrysSection from './components/IndustrySection';
 
 import NavBar from './components/NavBar';
+import Slider from './components/Slider';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <HeroSection />
+      <Slider />
       <FeatuteSection /> {/* add feature section component 1*/}
       <IndustrysSection />
       <FeatureSection2 /> {/* add feature section component 2 */}
